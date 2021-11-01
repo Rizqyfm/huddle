@@ -10,8 +10,12 @@ html, body {
 }
 
 /* Phone */
+/* First Div */
 .first-div {
-    background-color: hsl(193, 100%, 96%);
+    background-image: url(bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: hsla(192, 100%, 96%, 0.637);
     display: flex;
     flex-direction: column;
 }
@@ -34,7 +38,31 @@ html, body {
     border: none;
     padding: 5px 25px;
     border-radius: 20px;
-    font-weight: 600;
+}
+
+.first-div .title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.first-div .explanation {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px 15px 30px;
+    font-weight: 400;
+}
+
+.first-div .CTA-signup {
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 /* Desktop */
