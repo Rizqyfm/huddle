@@ -116,7 +116,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     text-align: center;
-    color: hsl(208, 11%, 55%);
+    color: hsl(209, 47%, 34%);
     padding:  15px 20px 20px;
 }
 
@@ -139,6 +139,8 @@ footer {
     background-color: hsl(192, 100%, 9%);
     display: flex;
     flex-direction: column;
+    color: hsl(193, 100%, 96%);
+    /* margin-top: -100px; */
 }
 
 .footer .whitelogo {
@@ -146,12 +148,73 @@ footer {
     filter: brightness(0) invert(1);
     width: 200px;
     height: 30px;
+    margin: 150px 20px 30px;
 }
 
-.footer {
+.footer .location, .telephone, .mail {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.address, .phone, .email {
+    padding-left: 10px;
+}
+
+.details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; 
+    padding-left: 20px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.details li {
+    padding-top: 20px;
+}
+
+.details li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.socmed {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px auto;
     color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+  } 
+  .fa:hover {
+    color:hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    cursor: pointer;
+}  
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0px;
 }
 
+.watermark {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px;
+}
 /* Desktop */
 @media screen and (min-width:768px) {
     body {
