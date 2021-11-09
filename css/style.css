@@ -38,6 +38,7 @@ html, body {
     border: none;
     padding: 5px 25px;
     border-radius: 20px;
+    box-shadow: 0px 3px 10px #70707073;
 }
 
 .CTA-try:hover {
@@ -61,24 +62,28 @@ html, body {
 }
 
 .CTA-signup {
+    display: flex;
     font-size: 15px;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     background-color: hsl(322, 100%, 66%);
     border: none;
-    margin: 20px 50px 50px;
+    margin: 20px auto 50px;
     padding: 15px 40px;
     border-radius: 25px;
     justify-content: center;
+    place-content: center;
 }
 .CTA-signup:hover {
     opacity: 0.7;
     cursor: pointer;
 }
 
-.first-div .mockup-img {
-    margin: auto 40px 25px;
+.mockup-img {
+    width: 100%;
+    height: auto;
+    padding: 0px 15px;
 }
 
 /* Second Div */
@@ -246,7 +251,9 @@ footer {
 }
 /* Desktop */
 @media screen and (min-width:768px) {
-    body {
-        display: none;
+/* First Div */
+    .header .CTA-try {
+        font-size: 12px;
+        padding: 5px 50px;
     }
 }
