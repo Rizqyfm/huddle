@@ -112,7 +112,7 @@ html, body {
 .illustration {
     padding: 20px;
 }
-/* =========== */
+/* ============================ */
 
 /* Wrapper Content */
 .headline {
@@ -256,6 +256,11 @@ footer {
     font-size: 12px;
     padding: 10px 0px;
 }
+.watermark a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Desktop */
 @media screen and (min-width:768px) {
 /* First Div */
@@ -307,7 +312,7 @@ footer {
         width: auto;
         height: 350px;
     }
-    /* ============ */
+    /* ============================ */
 
     /* Wrapper Content */
     .content1 {
@@ -343,4 +348,49 @@ footer {
     }
 
     /* CTA */
+    .cta {
+        width: 50%;
+    }
+
+    .content {
+        padding: 40px auto;
+    }
+
+    .action {
+        font-size: 30px;
+    }
+
+    .started {
+        font-size: 18px;
+        border-radius: 30px;
+        padding: 20px 60px;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 120px;
+    }
+
+    footer .fill {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .details {
+        display: flex;
+    }
+
+    .details li {
+        padding: 0px 100px;
+    }
+
+    .whatwedo, .faq, .blog, .contactus {
+        margin-top: 15px;
+    }
+
+    .copyright {
+        text-align: right;
+        padding-right: 50px;
+    }
 }
