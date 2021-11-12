@@ -204,7 +204,7 @@ footer {
     padding-left: 10px;
 }
 
-.details {
+.details, .details2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px; 
     padding-left: 20px;
@@ -212,11 +212,18 @@ footer {
     list-style: none;
 }
 
-.details li {
+.details li, .details2 li {
     padding-top: 20px;
+}
+.details2 .career {
+    padding-top: 0;
 }
 
 .details li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.details2 li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -377,15 +384,17 @@ footer {
         justify-content: space-around;
     }
 
-    .details {
+    .pages {
         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .details li {
-        padding: 0px 100px;
+        padding: 0px 100px 0px 0px;
     }
 
-    .whatwedo, .faq, .blog, .contactus {
+    .whatwedo, .faq {
         margin-top: 15px;
     }
 
